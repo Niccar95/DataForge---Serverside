@@ -1,0 +1,15 @@
+### Get all Appliction data
+GET http://localhost:3000/applications
+
+
+
+### Create Application data
+POST http://localhost:3000/applications
+ Content-Type: application/json; charset=utf-8
+
+{
+  "companyName": "SVT",
+  "applicationStatus": "sent",
+  "response": "Waiting"
+}
+
