@@ -8,7 +8,7 @@ POST http://localhost:3000/applications
  Content-Type: application/json; charset=utf-8
 
 {
-  "companyName": "SVT",
+  "companyName": "MSB",
   "applicationStatus": "sent",
   "response": "Waiting"
 }
